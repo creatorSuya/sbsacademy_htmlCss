@@ -1,0 +1,32 @@
+header {
+  height: 50px;
+}
+
+header > div:nth-child(1) {
+  margin-right: 5%;
+}
+
+header > div:nth-child(2) {
+  width: 30%;
+}
+
+nav div {
+  width: 17%;
+}
+
+nav div:nth-child(1) {
+  width: 40px;
+}
+
+nav div:last-child {
+  width: 30%;
+}
+
+.box1 {
+  width: 98%;
+}
+
+.box1 > ul {
+  width: 95%;
+  margin: 20px auto;
+}
