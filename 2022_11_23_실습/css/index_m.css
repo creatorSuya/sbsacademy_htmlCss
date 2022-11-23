@@ -1,0 +1,49 @@
+
+
+
+
+.box1 {
+    width: 98%;
+}
+
+.box1>ul {
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+.at2 p {
+    height: 75px;
+    line-height: 75px;
+    font-size: 1.5rem;
+}
+
+.at2 p:nth-child(1) {
+    line-height: 120px;
+}
+
+.at2 p:nth-child(2) {
+    line-height: 30px;
+}
+
+.at3 .pum {
+    width: 100%;
+}
+
+.at3 .pum li {
+    width: 40%;
+}
+
+.at3 .pum .pum_img {
+    width: 60%;
+    padding: 40px;
+}
+
+
+
+
+footer>div {
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
