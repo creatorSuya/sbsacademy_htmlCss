@@ -1,0 +1,30 @@
+/* 회사소개.html의 왼쪽에 있는 메뉴 */
+.so {
+    float: left;    
+    width: 48%;
+    margin-left: 1.5%;
+}
+
+/* 회사소개, 오시는길 메뉴 안에 있는 박스 */
+.so:hover .so_child {
+    display: block;
+}
+
+.so> .so_child {   /* ul */    
+    top: 40px; left: 0;
+    width: 200%;      /* 가로 10%의 700%는 7배 */
+
+}
+/* 오시는길 (서브)박스  회사소개의 (서브)박스는 위에서 기본값으로 top: 0; 잡혀있음  */
+.so> .so2_child {
+    left: -100%;  /* 지도가 왼쪽 붙여서 나오기 */
+}
+
+/* 기본으로 보여지는 so_child */
+.so0_child {
+    top: 50px;
+}
+/* 기본으로 보여지는 so_child 네모칸 박스 6개 */
+.so0_child li {
+    width: 100%;  /* 원래 30%인데 */
+}
