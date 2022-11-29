@@ -1,0 +1,200 @@
+body {
+    background: #f2f2f2;
+}
+.big {
+    width: 100%; height: 600px;
+    background: url(../img/big4.jpg);    
+}
+.menu {
+    position: fixed; top: 0; left: 0;
+    z-index: 99;
+
+    width: 100%; height: 50%;
+    border: 0px solid red;
+    font-size: 2rem; color: white;
+    line-height: 100px;
+    text-indent: 85%;
+}
+.menu:hover> .sub {
+    top: 0;
+    animation: sub_ani 5s;
+    /* animation-delay: 1s; */
+}
+.menu> .sub {
+    position: fixed; top: -100%; left: 0;
+    z-index: -1;
+    width: 100%; height: 100%;
+    background: black;
+    background: url(../img/big5.jpg);
+    transition: all 0.5s;
+    
+}
+@keyframes sub_ani {
+    0% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+.menu> .sub> li {
+    width: 50%; height: 70px;
+    margin: 30px auto; line-height: 70px;
+    border: 0px solid white;
+    text-indent: 0;
+    text-align: center;
+}
+.menu> .sub> li:first-child {
+    margin-top: 200px;
+}
+.menu> .sub> li> a {
+    display: block;
+    border: 0px solid red;
+    color: white;
+}
+
+article {
+    position: relative; top: 0; left: 0;
+    width: 100%; 
+}
+.at0 {
+    border: 0px solid orange;
+}
+.center { text-align: center; }
+.hy { font-family: hy견고딕; }
+.size25 { font-size: 2.5rem; }
+.big_title {
+    height: 100px; line-height: 100px;         
+    border: 0px solid black;
+}
+.small_title {
+    height: 50px; line-height: 50px;
+    font-size: 1.5rem;
+    border: 0px solid black;
+}
+.part {
+    width: 50%; 
+    border: 0px solid blue;
+    margin: 50px auto;
+    background: white;
+}
+.part> li {
+    height: 100px;
+    border: 0px solid #ccc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part> li> div {
+    height: 100%;
+    line-height: 100px;
+    border: 0px solid red;
+}
+.part> li div:nth-child(1) { 
+    width: 20%; 
+}
+.part> li div:nth-child(2) { width: 70%; }
+.part> li div:nth-child(3) { 
+    width: 30px; height: 30px;
+    border: 0px solid #ccc;
+    border-radius: 100%;
+    line-height: 30px;
+    margin-top: 35px;
+}
+.part> li div:nth-child(3):hover {
+    background: blue;
+}
+
+.reserve {
+    position: fixed; top: 70%; right: 50px;
+    width: 200px; height: 50px;
+    line-height: 50px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background: #ccc; color: white;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.reserve:hover {
+    background: burlywood;
+    height: 210px;
+}
+.reserve> ul {
+    /* position: absolute; top: 100%; left: 0; */
+    width: 100%;
+    border: 0px solid black;
+    border-bottom: none;
+    background: #f2f2f2;
+}
+.reserve >ul> li {
+    line-height: 40px; 
+    color: black;
+    border-bottom: 0px dashed #ccc;
+    cursor:pointer;
+}
+
+.reserve> ul> li:hover{
+    line-height: 40px;
+    color : black;
+    /* border-bottom:0px dashed #ccc; */
+}
+
+footer {
+    position :relative;
+    top:0;left:0;
+    width:100%;
+    /* height:300px; */
+    background:black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*이거 모르겠다*/
+    
+}
+footer .contact{
+    position : absolute;
+    color : white;
+    top : 200px;
+    left : 0px;
+    
+    border : 0px solid red;
+    letter-spacing: 10px; /*자간*/
+    transform: rotateZ(-90deg);
+    cursor: pointer;
+    font-size : 1.5rem;
+}
+footer> ul{
+    width:20%; height:200px;
+    border:0px solid white;
+    color : white;
+    margin : 100px auto;
+}
+footer >ul >li {
+    font-size: 1.52rem;
+    text-indent : 20px;
+    line-height : 62px;
+    border : 0px solid white;
+}
+
+footer> ul> li> p{
+    width:30%;
+}
+
+
+footer >ul:nth-child(1) > li:nth-child(2){
+    display : flex;
+    /* justify-content: left; */
+}
+footer >ul:nth-child(1) > li:nth-child(2) > p{
+    width : 20%;
+    border: 0px solid white;
+    text-align: left;
+}
+
+
+footer > ul:nth-child(2) > li{
+    /* text-align: left; */
+    line-height:35px;
+    font-size : 1.5rem;
+}
+
+footer > ul:nth-child(3) > li{
+    text-align: left;
+    line-height: 40px;
+    font-size: 1rem;
+}
+
