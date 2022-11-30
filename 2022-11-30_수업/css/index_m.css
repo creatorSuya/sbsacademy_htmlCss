@@ -1,0 +1,35 @@
+
+.menu {    
+    text-indent: 5%;
+}
+.menu> .sub> li {
+    width: 100%;
+}
+
+/* 부산/서울 예약 */
+.part {
+        width: 100%;
+}
+.part > li> div:nth-child(1) { 
+    width: 70%; 
+}
+/* .small_title 삭제 */
+.part> li> div:nth-child(2) { 
+    display: none; 
+}
+
+.reserve {
+    top: 3%;
+}
+
+
+footer .contact {
+    display: none;
+}
+footer> ul {
+    width: 100%;
+    margin: 0px auto;
+}
+footer> .con {
+    display: none;
+}

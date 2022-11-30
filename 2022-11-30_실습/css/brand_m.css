@@ -1,0 +1,54 @@
+.centerText {
+  display: inline-block;
+  top: -200px;
+}
+
+.centerText li {
+  width: 30%;
+  height: 30%;
+  font-size: 1rem;
+  margin-right: 0;
+  border: 1px solid red;
+  color: yellow;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.centerText li:nth-child(1) {}
+
+.centerText li:nth-child(2) {
+  margin-left: 30%;
+}
+
+.centerText li:nth-child(3) {
+  margin-left: 60%;
+}
+
+.imgText {}
+
+.imgText div {
+  position: absolute;
+  left: 0;
+  width: 96%;
+  margin: 20pxauto;
+  border: 1px solid red;
+}
+
+.imgText .imgText_text {
+  top :0;
+}
+
+.imgText .imgText_text p {
+  text-indent : 0px;
+  line-height:30px;
+}
+
+.imgText .imgText_text p:last-child{
+  margin-bottom : 10px;
+}
+.imgText .imgText_img{
+  top : 400px;
+}
+.gray{
+  margin-top :1100px;
+}
