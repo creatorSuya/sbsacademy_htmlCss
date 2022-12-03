@@ -1,0 +1,160 @@
+.big {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../getImg/big1.jpg);
+
+    transform: scale(1.1);
+    animation: big_ani 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes big_ani {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.wrap {
+    width: 100%;
+    height: 3000px;
+}
+
+.wrap>.left {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    border: 0px solid red;
+}
+
+.wrap>.left img {
+    width: 100%;
+}
+
+.left>.logo {
+    position: absolute;
+    top: 70%;
+    left: 100%;
+
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+    border: 0px solid red;
+    animation: logo_ani 10s linear infinite;
+}
+
+@keyframes logo_ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wrap .imgText {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3000px;
+    background: white;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrap .imgText>div {
+    width: 45%;
+    height: 950px;
+    border: 0px solid black;
+}
+
+/* 왼쪽 큰 그림 */
+.wrap .imgText>.imgText_img {}
+
+.wrap .imgText>.imgText_img img {
+    width: 100%;
+}
+
+/* 오른쪽 글씨 */
+.wrap .imgText>.imgText_text {}
+
+.wrap .imgText>.imgText_text p {
+    border: 0px solid green;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.wrap .imgText>.imgText_text p:nth-child(1) {
+    margin-top: 100px;
+}
+
+.wrap .imgText>.imgText_text p:nth-child(5) {
+    margin-top: 100px;
+}
+
+.wrap .imgText>.imgText_text p.font30 {
+    font-size: 3rem;
+    height: 150px;
+    line-height: 100px;
+}
+
+.wrap .imgText>.imgText_text>div {
+    width: 70%;
+    margin: 50px auto;
+}
+
+
+.wrap .imgText>.imgText_text>div >img {
+    width: 100%;
+}
+
+
+.wrap .imgText>.bigBig_text {
+    width:500px;
+    height:280px;
+    border: 1px solid orange;
+    margin:-900px auto;
+}
+
+.wrap .imgText>.bigBig_text > li{
+    width:100%;
+    height:70px;
+    font-size: 2rem;
+    color : red;
+    line-height:70px;
+    border: 1px solid orange;
+    margin-top : -200px;
+    margin-left : -100px;
+}
+
+/* 가로 큰 이미지 */
+.wrap .imgText>.bigBig {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index:200;
+    border: 1px solid red;
+    width: 90%;
+    height: 700px;
+    margin: 1000px auto;
+}
+
+
+.wrap .imgText>.bigBig img{
+    width:100%;
+}
+

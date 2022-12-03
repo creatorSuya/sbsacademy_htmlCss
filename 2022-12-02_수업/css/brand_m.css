@@ -1,0 +1,59 @@
+/* 가운데 글자 세개 위치 지정 */
+.centerText {
+    display: inline-block;
+    top: -200px
+}
+.centerText li {
+    width: 30%; height: 30px;
+    border: 0px solid red;
+    font-size: 1rem;    
+    margin-right: 0;
+    line-height: 30px;    
+    margin-top: 10px;
+}
+.centerText li:nth-child(1) {
+
+}
+.centerText li:nth-child(2) {
+    margin-left: 30%;
+}
+.centerText li:nth-child(3) {
+    
+    margin-left: 60%;
+}
+
+/* 그림-글씨-(아래)가로 긴 그림이 있는 박스 */
+.imgText {
+
+}
+.imgText div {
+    position: absolute; left: 0;
+    width: 96%; 
+    margin: 20px auto;
+    border: 0px solid red;    
+}
+.imgText .imgText_text {
+    /* 두 번째 div - 문장태그로 큰 글씨   */    
+    top: -900px;
+    z-index: 4;
+}
+.imgText .imgText_text p {
+    text-indent: 0px;
+    line-height: 30px;
+}
+.imgText .imgText_text p:last-child {
+    margin-bottom: 50px;
+}
+
+.imgText .imgText_img {
+    top: 400px;
+    
+}
+.imgText .widthLong {
+    /* display: none; */
+}
+
+.gray {    
+    margin-top: -150px;
+
+}

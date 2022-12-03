@@ -1,0 +1,45 @@
+.wrap> .left {
+    width: 100%;
+}
+.left> .logo {
+    top: 100%; left: 50%;
+    
+    margin-top: -50px;
+    width: 100px; margin-left: -50px;
+}
+
+
+.wrap .imgText > div {
+    position: relative; top: 50px; left: 0;
+    width: 96%; height: 450px;
+}
+.wrap .imgText > .imgText_text {
+    margin-top: -600px; 
+    height: 700px;   
+}
+.wrap .imgText > .imgText_text p {
+    font-size: 0.8rem;
+}
+.wrap .imgText > .imgText_text> p:nth-child(1) {
+    margin-top: 50px;
+}
+.wrap .imgText > .imgText_text> p:nth-child(5) {
+    margin-top: 30px;
+}
+
+/* .bigBig 안에 들어갈 문장박스(ul) */
+.wrap> .imgText > .bigBig_text {
+    width: 90%;     
+    margin-top: -550px;
+    margin-left: 0;
+}
+.wrap> .imgText > .bigBig_text> li {
+    color: black; font-size: 2rem;
+    margin-left: 0;   
+    font-family: hy견고딕;
+}
+
+/* .bigBig 가로로 아주 큰 그림 */
+.wrap> .imgText >.bigBig {
+    margin: -800px auto;
+}
