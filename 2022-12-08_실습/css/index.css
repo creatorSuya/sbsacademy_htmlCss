@@ -1,0 +1,94 @@
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav > div {
+  width: 10%;
+  height: 50px;
+  border: 1px solid red;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.at0 {
+  width: 80%;
+  height: 1000px;
+  margin: 50px auto;
+  border: 1px solid black;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.at0 > div {
+  width: 50%;
+  height: 450px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.at0 > .left > ul {
+  width: 30%;
+  height: 200px;
+  border: 1px solid blue;
+  margin-bottom: 50px;
+}
+.at0 > div ul > li {
+  text-align: center;
+}
+.at0 > div > ul > li > img {
+  height: 100%;
+  border: 1px solid red;
+}
+
+.at0 > div > ul > li:nth-child(1) {
+  height: 170px;
+  border: 1px solid red;
+}
+.at0 > div > ul > li:nth-child(2) {
+  border: 1px solid red;
+  /* line-height: 30px; */
+}
+.at0 > .right {
+  height: 700px;
+}
+.at0 > .right > div {
+  width: 80%;
+  height: 400px;
+  border: 10px solid red;
+  margin: 0 auto;
+  text-align: center;
+}
+.at0 > .right > div > img {
+  height: 100%;
+}
+
+.at0 > .right > .suBox {
+  width: 80%;
+  height: 50px;
+  background: coral;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+}
+.at0 > .right > .suBox > li {
+  width: 100px;
+  height: 50px;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+.at0 > .right > #ok {
+  width: 200px;
+  height: 70px;
+  background: black;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
