@@ -1,0 +1,109 @@
+nav {
+    width: 100%; 
+    display: flex; flex-wrap: wrap;
+    justify-content: center;
+}
+nav div {
+    width: 10%; height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 0px solid #f2f2f2;
+    cursor: pointer;
+}
+.at0 {
+    position: relative;
+    top: 0; left: 0;
+
+    width: 80%; height: 1000px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+.at0> div {
+    width: 50%; height: 450px;
+    border: 0px solid black;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+.at0> .left> ul {
+    width: 30%; height: 200px;
+    border: 0px solid blue;
+    margin-bottom: 50px;
+}
+.at0> .left> ul> li {
+    text-align: center;
+    cursor: pointer;
+}
+.at0> .left> ul> li> img {
+    height: 100%;
+    border: 0px solid red;
+}
+.at0> .left> ul> li:nth-child(1) {
+    height: 170px;
+}
+.at0> .left> ul> li:nth-child(2) {
+    height: 30px;
+    line-height: 30px;
+}
+
+.at0> .right {
+    height: 700px;
+}
+.at0> .right> div {
+    width: 80%; height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+.at0> .right> div> img {
+    height: 100%;
+}
+/* 수량 박스 */
+.at0> .right> .suBox {
+    width: 80%; height: 50px;
+    border: 0px solid red;
+    margin: 30px auto;
+    display: flex;
+    justify-content: left;
+}
+.at0> .right> .suBox> li {
+    width: 100px; height: 50px;
+    border: 1px solid blue;
+    line-height: 50px; text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.at0> .right> .suBox> li:nth-child(1) {
+    margin-right: 100px;
+}
+.at0> .right> #ok {
+    width: 200px; height: 70px;
+    background: black; color: white;
+    cursor: pointer;
+}
+/* 주문박스 */
+.jumunBox {
+    position: absolute;
+    top: 50px; left: 50%;
+    transform: translateX(-50%);
+
+    width: 500px; height: 200px;
+    background: #f2f2f2;
+}
+.jumunBox> ul {
+    width: 80%; height: 50px;
+    margin: 50px auto;
+}
+.jumunBox> ul> li {
+    width: 80%; height: 100%;
+    border: 1px solid red;
+    line-height: 50px;
+}
+.jumunv> ul> li> label {
+    width: 10%; height: 100%;
+    
+}
+.jumunBox> #total {
+    width: 50%;
+}
