@@ -1,0 +1,49 @@
+.menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.menu iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.menu:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 90%;
+}
+
+.at2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: lightgreen;
+}
+
+.at2>.ract {
+    width: 80%;
+    margin: -100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.at2>.ract>li {
+    width: 40%;
+    height: 300px;
+    margin: 0px auto;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.at2>.ract>li>img {
+    width: 100%;
+    height: 100%;
+}
